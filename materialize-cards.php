@@ -16,7 +16,6 @@ add_action( 'plugins_loaded', array( Materialize_Cards::get_instance(), 'plugin_
 
 class Materialize_Cards {
     protected static $instance = NULL;
-    public $caption_sentinel = 'materialize-cards-caption-sentinel';
     public $plugin_url = '';
     public $plugin_path = '';
 
