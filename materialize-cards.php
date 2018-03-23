@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Materialize Cards
- * Description: Display images with captions as Materialize Cards
+ * Description: Display images with captions as Materialize Cards. Cards are a convenient means of displaying content composed of different types of objects. They’re also well-suited for presenting similar objects whose size or supported actions can vary considerably, like photos with captions of variable length.
  * Plugin URI:  https://github.com/ajatamayo/materialize-cards
  * Version:     1.0
  * Author:      AJ Tamayo
