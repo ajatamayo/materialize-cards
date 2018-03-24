@@ -88,7 +88,7 @@ class Materialize_Cards {
      * @since 1.0
      */
     function enqueue_scripts() {
-        wp_enqueue_style( 'materialize-cards', $this->plugin_url . "/public/style.css", array(), '1.0' );
+        wp_enqueue_style( 'materialize-cards', $this->plugin_url . "public/styles/cards.css", array(), '1.0' );
     }
 }
 
