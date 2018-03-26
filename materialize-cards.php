@@ -62,9 +62,12 @@ class Materialize_Cards {
 
     /**
      *
-     * @since 1.0
+     * @since 1.1
      */
     function convert_to_image_card( $output, $attr, $content ) {
+        $id = (int) str_replace( 'attachment_', '', $attr['id'] );
+        $description = get_post_field( 'post_content', $id );
+
         ob_start();
 
         ?>
@@ -75,6 +78,9 @@ class Materialize_Cards {
             </div>
             <div class="card-content">
                 <p><?php echo $attr['caption']; ?></p>
+                <?php if ( !empty( $description ) ) : ?>
+                    <p class="description"><?php echo $description; ?></p>
+                <?php endif; ?>
             </div>
         </div>
 

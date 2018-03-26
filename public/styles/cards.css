@@ -216,3 +216,15 @@
   cursor: pointer;
   display: block;
 }
+
+/**
+ * Custom css
+ */
+.card-content p {
+  white-space: pre-line;
+}
+
+.card-content .description {
+  font-size: 0.85rem;
+  color: #999;
+}
