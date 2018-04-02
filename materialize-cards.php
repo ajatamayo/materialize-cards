@@ -72,7 +72,7 @@ class Materialize_Cards {
 
         ?>
 
-        <div class="card">
+        <div class="card" style="max-width: <?php echo $attr['width']; ?>px;">
             <div class="card-image">
                 <?php echo $content; ?>
             </div>
